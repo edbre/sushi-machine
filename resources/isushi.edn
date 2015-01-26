@@ -1,0 +1,75 @@
+({:name "1. Liten Mix (32 biter)", :price 379}
+ {:name "10. Tempura", :price 89}
+ {:name "11.King Roll", :price 89}
+ {:name "13.Rainbow", :price 94}
+ {:name "14.Spicy Tuna", :price 89}
+ {:name "15.Spicy Laks", :price 84}
+ {:name "16.Biff Teriyaki", :price 89}
+ {:name "17. Hito Laks", :price 89}
+ {:name "18.Ebi", :price 89}
+ {:name "19.Sweet Roll", :price 89}
+ {:name "2. Medium Mix (48 biter)", :price 559}
+ {:name "20.Kylling Teriyaki", :price 84}
+ {:name "22.Hotate", :price 89}
+ {:name "23. Softshell*", :price 89}
+ {:name "24.California", :price 84}
+ {:name "26.Duck Roll", :price 94}
+ {:name "28.Crispy Mix*", :price 94}
+ {:name "29. Nigiri Laks", :price 45}
+ {:name "3. Stor Mix (64 biter)", :price 729}
+ {:name "30. Nigiri Kveite", :price 49}
+ {:name "31. Nigiri Tunfisk", :price 55}
+ {:name "32. Nigiri Kokt Reke", :price 45}
+ {:name "33. Nigiri Kamskjell", :price 45}
+ {:name "36. Sashimi Laks", :price 45}
+ {:name "37. Sashimi Kveite", :price 49}
+ {:name "38. Sashimi Tunfisk", :price 55}
+ {:name "39. Sashimi Kokt Reke", :price 45}
+ {:name "4. Party Platter (100 biter)", :price 1098}
+ {:name "40. Sashimi Kamskjell", :price 45}
+ {:name "43. Kyllingspyd*", :price 15}
+ {:name "44. Vårrull m/ grønnsaker*", :price 20}
+ {:name "45. Vårrull m/ kylling*", :price 25}
+ {:name "48. Nuggets*", :price 7}
+ {:name "49. Mozerella sticks*", :price 7}
+ {:name "5.Liten Box (8 biter)", :price 89}
+ {:name "50. Tempura forrett*", :price 79}
+ {:name "51. Smårett Mix*", :price 94}
+ {:name "59. Medium Kombo (12 biter)", :price 139}
+ {:name "6.Stor Kombo (20 biter)", :price 229}
+ {:name "60. iSushi*", :price 89}
+ {:name "61.Ekstra Stor Kombo (32 biter)", :price 349}
+ {:name "62. Start Mix (16 biter)", :price 189}
+ {:name "63.Spicy Ohio", :price 89}
+ {:name "64.Sweet Ebi", :price 89}
+ {:name "65.Philadelphia", :price 84}
+ {:name "66.Las Vegas", :price 98}
+ {:name "67.Tempura Mango", :price 94}
+ {:name "68.iTasty", :price 89}
+ {:name "69. Crispy California", :price 89}
+ {:name "7. Nigiri Mix", :price 199}
+ {:name "70. Mango Madness", :price 84}
+ {:name "71.San Francisco*", :price 98}
+ {:name "72. Crispy Tuna", :price 94}
+ {:name "75.Spicy Box (16 biter)", :price 169}
+ {:name "76.Hot Box (26 biter)*", :price 359}
+ {:name "77.Sharing Box (32 biter)", :price 339}
+ {:name "78. Royal Mix (80 biter)", :price 898}
+ {:name "79.Delux Kombo (48 biter)", :price 529}
+ {:name "8. Sashimi Mix", :price 219}
+ {:name "80.Ultimate Kombo (64 biter)", :price 698}
+ {:name "81. Crunchy Tamago", :price 89}
+ {:name "9.Vegetar", :price 75}
+ {:name "Chilimajones", :price 15}
+ {:name "Ingefær", :price 10}
+ {:name "KOMMER", :price 89}
+ {:name "KOMMER", :price 94}
+ {:name "Mineralvann 0,5", :price 25}
+ {:name "Mineralvann 1,5", :price 39}
+ {:name "NEW! 87.Fantastic Four", :price 89}
+ {:name "NEW! 89.Sake Supreme", :price 84}
+ {:name "Ponzu", :price 15}
+ {:name "Sjøgress", :price 29}
+ {:name "Sweet Chili saus", :price 10}
+ {:name "Teriyaki saus", :price 15}
+ {:name "Wasabi", :price 10})
