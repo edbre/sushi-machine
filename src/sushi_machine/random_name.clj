@@ -51,7 +51,10 @@
                  "mann"
                  "dame"
                  "programmerer"
-                 "selger"])
+                 "kunde"
+                 "kake"
+                 "fisk"
+                 "sushi"])
 
 (def verb ["hopper"
            "sniker"
