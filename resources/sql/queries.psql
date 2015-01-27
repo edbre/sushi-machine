@@ -1,0 +1,21 @@
+-- name: create-events-table!
+CREATE TABLE events (
+       id SERIAL PRIMARY KEY,
+       name VARCHAR(64) UNIQUE NOT NULL,
+       created TIMESTAMP NOT NULL DEFAULT (now() at time zone 'utc')
+)
+
+-- name: drop-events-table!
+DROP TABLE events
+
+-- name: create-events<!
+INSERT INTO events (name) VALUES (:name)
+
+-- name: find-events-by-id
+SELECT * FROM events WHERE id = :id LIMIT 1
+
+-- name: find-events-by-name
+SELECT * FROM events WHERE name = :name LIMIT 1
+
+-- name: find-latest-events
+SELECT * FROM events ORDER BY created DESC LIMIT 20
