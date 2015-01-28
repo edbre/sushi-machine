@@ -5,6 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :plugins [[lein-ring "0.9.1"]
             [lein-environ "1.0.0"]]
+  :min-lein-version "2.0.0"
   :ring {:handler sushi-machine.server/handler
          :port 3001}
   :uberjar-name "sushi-machine.jar"
