@@ -10,7 +10,7 @@
          :port 3001}
   :uberjar-name "sushi-machine.jar"
   :main sushi-machine.server
-  :profiles {;:uberjar {:aot :all}
+  :profiles {:uberjar {:aot :all}
              :production {:env {:production true}}
              :dev {:env {:database-url "postgres://myapp:dbpass@127.0.0.1:15432/sushi"}
                    :dependencies [[ring/ring-mock "0.2.0"]]}
