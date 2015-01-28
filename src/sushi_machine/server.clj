@@ -5,7 +5,8 @@
             [liberator.dev :refer [wrap-trace]]
             [ring.middleware.params :refer [wrap-params]]
             [ring.adapter.jetty :as jetty]
-            [environ.core :refer [env]]))
+            [environ.core :refer [env]])
+   (:gen-class :main true))
 
 (def system      {:db (env :database-url)
                   :port (or (env :port) 3002)})

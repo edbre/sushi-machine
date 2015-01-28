@@ -1,5 +1,6 @@
 (ns other.isushi-scrape
-  (:require [net.cgrand.enlive-html :as e])
+  (:require [net.cgrand.enlive-html :as e]
+            [clojure.pprint :refer [pprint]])
   (:import java.net.URL))
 
 (def urls ["http://www.isushi.no/mix/"
@@ -40,5 +41,5 @@
 
 (let [parsed (mapcat parse-url urls)
       sorted (sort-by :name parsed)
-      pretty (with-out-str (clojure.pprint/pprint sorted))]
+      pretty (with-out-str (pprint sorted))]
   (spit "isushi.edn" pretty))
