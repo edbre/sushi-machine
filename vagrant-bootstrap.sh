@@ -4,8 +4,8 @@
 APP_DB_USER=myapp
 APP_DB_PASS=dbpass
 
-# Edit the following to change the name of the database that is created (defaults to the user name)
-APP_DB_NAME=$APP_DB_USER
+APP_DB_NAME=sushi
+APP_DB_NAME_TESTING=sushitest
 
 # Edit the following to change the version of PostgreSQL that is installed
 PG_VERSION=9.3
@@ -18,6 +18,7 @@ print_db_usage () {
   echo "  Host: localhost"
   echo "  Port: 15432"
   echo "  Database: $APP_DB_NAME"
+  echo "  Database test: $APP_DB_NAME_TESTING"
   echo "  Username: $APP_DB_USER"
   echo "  Password: $APP_DB_PASS"
   echo ""
@@ -91,6 +92,13 @@ CREATE DATABASE $APP_DB_NAME WITH OWNER=$APP_DB_USER
                                   LC_CTYPE='en_US.utf8'
                                   ENCODING='UTF8'
                                   TEMPLATE=template0;
+
+-- Create the testing database:
+CREATE DATABASE $APP_DB_NAME_TESTING WITH OWNER=$APP_DB_USER
+                                          LC_COLLATE='en_US.utf8'
+                                          LC_CTYPE='en_US.utf8'
+                                          ENCODING='UTF8'
+                                          TEMPLATE=template0;
 EOF
 
 # Tag the provision time:
