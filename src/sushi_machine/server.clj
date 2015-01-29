@@ -1,13 +1,12 @@
 (ns sushi-machine.server
-  (:require [compojure.core :refer [routes defroutes ANY]]
-            [liberator.core :refer [resource defresource]]
-            [compojure.handler :refer [site]]
-            [liberator.dev :refer [wrap-trace]]
-            [ring.middleware.params :refer [wrap-params]]
-            [ring.adapter.jetty :as jetty]
-            [environ.core :refer [env]]
+  (:require [clojure.edn :as edn]
             [clojure.java.io :as io]
-            [clojure.edn :as edn])
+            [compojure.core :refer [routes ANY]]
+            [environ.core :refer [env]]
+            [liberator.core :refer [resource defresource]]
+            [liberator.dev :refer [wrap-trace]]
+            [ring.adapter.jetty :as jetty]
+            [ring.middleware.params :refer [wrap-params]])
    (:gen-class :main true))
 
 (def system {:db (env :database-url)
