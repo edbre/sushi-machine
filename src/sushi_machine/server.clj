@@ -15,7 +15,9 @@
 
 (def test-system {:db "postgres://myapp:dbpass@127.0.0.1:15432/sushitest"})
 
-(def default-media-types ["text/plain"
+(def default-media-types ["text/html"
+                          "text/csv"
+                          "text/plain"
                           "application/json"
                           "application/edn"
                           "application/clojure"])
