@@ -23,7 +23,6 @@
 
 (def food-servers {:isushi (-> "isushi.edn"
                                io/resource
-                               io/file
                                slurp
                                edn/read-string)})
 
