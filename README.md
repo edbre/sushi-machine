@@ -1,10 +1,16 @@
 # sushi-machine
 
-A Clojure library designed to ... well, that part is up to you.
+[![Circle CI](https://circleci.com/gh/edbre/sushi-machine/tree/master.svg?style=svg)](https://circleci.com/gh/edbre/sushi-machine/tree/master)
+
+A Clojure service for coordinating food orders at the office.
 
 ## Usage
 
-FIXME
+Requires postgres, use vagrant.
+
+```
+$ lein run
+```
 
 ## License
 
