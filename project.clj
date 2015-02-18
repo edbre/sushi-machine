@@ -22,6 +22,7 @@
                         :source-paths ["src-cljs"]
                         :compiler {:output-to "resources/public/js/main.js"
                                    :output-dir "resources/public/js/out"
+                                   :preamble ["reagent/react.js"]
                                    :optimizations :none
                                    :source-map true
                                    :pretty-print true}}]}
@@ -36,6 +37,7 @@
                  [org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2850"]
                  [org.postgresql/postgresql "9.3-1102-jdbc41"]
+                 [reagent "0.5.0-alpha3"]
                  [ring/ring-core "1.3.2"]
                  [ring/ring-jetty-adapter "1.2.2"]
                  [yesql "0.4.0"]])
