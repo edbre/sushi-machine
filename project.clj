@@ -28,14 +28,17 @@
                                    :pretty-print true}}]}
   :figwheel {:http-server-root "public"
              :css-dirs ["resources/public/css"]
-             :ring-handler sushi-machine.server/handler}
-  :dependencies [[compojure "1.3.1"]
+             :ring-handler sushi-machine.server/handler
+             :nrepl-port 7888}
+  :dependencies [[cljs-http "0.1.26"]
+                 [compojure "1.3.1"]
                  [enlive "1.1.5"]
                  [environ "1.0.0"]
                  [figwheel "0.2.3-SNAPSHOT"]
                  [liberator "0.12.2"]
                  [org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2850"]
+                 [org.clojure/core.async "0.1.346.0-17112a-alpha"]
                  [org.postgresql/postgresql "9.3-1102-jdbc41"]
                  [reagent "0.5.0-alpha3"]
                  [ring/ring-core "1.3.2"]
